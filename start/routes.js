@@ -16,4 +16,8 @@
 /** @type {typeof import('@adonisjs/framework/src/Route/Manager')} */
 const Route = use('Route')
 
-Route.on('/').render('welcome')
+Route.group(() => {
+	Route.post('ping', 'AppController.ping');
+	Route.post('version', 'AppController.version');
+	
+}).prefix('api');

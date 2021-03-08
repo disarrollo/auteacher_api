@@ -1,10 +1,14 @@
+ 
+
+ - 20 imagenes
+ - 20 audios
+
  - Iniciar indices de la base de datos
  - Notificaciones
  - Diferir un poco las conversaciones aleatoriamiente para que no inicien todas al mismo tiempo
- - verificacion de version
- - imagenes
- - audios
-
+ 
+ - verificacion de version - actualizacion obligatoria
+ 
  FUNCIONES
  
 
@@ -224,3 +228,6 @@ adonis guion:iniciar_uno g12
 adonis guion:iniciar_uno g13
 adonis guion:iniciar_uno g14
 adonis guion:iniciar_uno g15
+
+
+
