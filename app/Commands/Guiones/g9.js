@@ -394,7 +394,7 @@ module.exports = {
 					grupo_propio: ['banquero','el banquero'],
 					valor: 100, 
 					salida: codigo+'e7',
-					tiempo: 5,
+					tiempo: 6,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -452,7 +452,7 @@ module.exports = {
 					grupo: 'verdadero',
 					valor: 100, 
 					salida: codigo+'e8',
-					tiempo: 5,
+					tiempo: 7,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -465,7 +465,7 @@ module.exports = {
 					grupo: 'falso',
 					valor: 0, 
 					salida: codigo+'e3',
-					tiempo: 5
+					tiempo: 7
 				},
 			],
 
@@ -522,7 +522,7 @@ module.exports = {
 					grupo: 'verdadero',
 					valor: 100, 
 					salida: codigo+'e9',
-					tiempo: 5,
+					tiempo: 8,
 					logros: [],
 					cierre: {
 						tipo_cuerpo: 'texto', 
@@ -536,7 +536,7 @@ module.exports = {
 					grupo: 'falso',
 					valor: 0, 
 					salida: codigo+'e3',
-					tiempo: 5
+					tiempo: 8
 				},
 			],
 
@@ -588,7 +588,7 @@ module.exports = {
 					grupo_propio: ['banker'],
 					valor: 100, 
 					salida: codigo+'e10',
-					tiempo: 5,
+					tiempo: 9,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -646,7 +646,7 @@ module.exports = {
 					grupo_propio: ['banker', 'a banker', 'the banker','is a banker', 'he is a banker', "he's a banker"],
 					valor: 100, 
 					
-					tiempo: 5,
+					tiempo: 10,
 					logros: ['g9'],
 					cierre: {
 						tipo_cuerpo: 'texto', 

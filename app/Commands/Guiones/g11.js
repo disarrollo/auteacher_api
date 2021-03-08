@@ -394,7 +394,7 @@ module.exports = {
 					grupo_propio: ['auxiliar de vuelo','el auxiliar de vuelo'],
 					valor: 100, 
 					salida: codigo+'e7',
-					tiempo: 5,
+					tiempo: 6,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -452,7 +452,7 @@ module.exports = {
 					grupo: 'verdadero',
 					valor: 100, 
 					salida: codigo+'e8',
-					tiempo: 5,
+					tiempo: 7,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -465,7 +465,7 @@ module.exports = {
 					grupo: 'falso',
 					valor: 0, 
 					salida: codigo+'e3',
-					tiempo: 5
+					tiempo: 7
 				},
 			],
 
@@ -522,7 +522,7 @@ module.exports = {
 					grupo: 'verdadero',
 					valor: 100, 
 					salida: codigo+'e9',
-					tiempo: 5,
+					tiempo: 8,
 					logros: [],
 					cierre: {
 						tipo_cuerpo: 'texto', 
@@ -536,7 +536,7 @@ module.exports = {
 					grupo: 'falso',
 					valor: 0, 
 					salida: codigo+'e3',
-					tiempo: 5
+					tiempo: 8
 				},
 			],
 
@@ -588,7 +588,7 @@ module.exports = {
 					grupo_propio: ['flight attendant'],
 					valor: 100, 
 					salida: codigo+'e10',
-					tiempo: 5,
+					tiempo: 9,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -646,7 +646,7 @@ module.exports = {
 					grupo_propio: ['flight attendant', 'a flight attendant', 'the flight attendant','is a flight attendant', 'he is a flight attendant', "he's a flight attendant"],
 					valor: 100, 
 					
-					tiempo: 5,
+					tiempo: 10,
 					logros: ['g11'],
 					cierre: {
 						tipo_cuerpo: 'texto', 

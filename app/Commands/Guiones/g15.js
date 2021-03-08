@@ -394,7 +394,7 @@ module.exports = {
 					grupo_propio: ['científico','el científico'],
 					valor: 100, 
 					salida: codigo+'e7',
-					tiempo: 5,
+					tiempo: 6,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -452,7 +452,7 @@ module.exports = {
 					grupo: 'verdadero',
 					valor: 100, 
 					salida: codigo+'e8',
-					tiempo: 5,
+					tiempo: 7,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -465,7 +465,7 @@ module.exports = {
 					grupo: 'falso',
 					valor: 0, 
 					salida: codigo+'e3',
-					tiempo: 5
+					tiempo: 7
 				},
 			],
 
@@ -522,7 +522,7 @@ module.exports = {
 					grupo: 'verdadero',
 					valor: 100, 
 					salida: codigo+'e9',
-					tiempo: 5,
+					tiempo: 8,
 					logros: [],
 					cierre: {
 						tipo_cuerpo: 'texto', 
@@ -536,7 +536,7 @@ module.exports = {
 					grupo: 'falso',
 					valor: 0, 
 					salida: codigo+'e3',
-					tiempo: 5
+					tiempo: 8
 				},
 			],
 
@@ -588,7 +588,7 @@ module.exports = {
 					grupo_propio: ['scientist'],
 					valor: 100, 
 					salida: codigo+'e10',
-					tiempo: 5,
+					tiempo: 9,
 					logros: [],
 	        		cierre: {
 						tipo_cuerpo: 'texto', 
@@ -646,7 +646,7 @@ module.exports = {
 					grupo_propio: ['scientist', 'a scientist', 'the scientist','is a scientist', 'he is a scientist', "he's a scientist"],
 					valor: 100, 
 					
-					tiempo: 5,
+					tiempo: 10,
 					logros: ['g15'],
 					cierre: {
 						tipo_cuerpo: 'texto', 
