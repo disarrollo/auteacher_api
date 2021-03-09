@@ -70,6 +70,7 @@ module.exports = {
 					tiempo: 1,
 					logros: [],
 	        		cierre: {
+	        			grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -151,6 +152,7 @@ module.exports = {
 					tiempo: 2,
 					logros: [],
 					cierre: {
+						grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -217,6 +219,7 @@ module.exports = {
 					tiempo: 3,
 					logros: [],
 	        		cierre: {
+	        			grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -282,6 +285,7 @@ module.exports = {
 					tiempo: 4,
 					logros: [],
 					cierre: {
+						grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -343,6 +347,7 @@ module.exports = {
 					tiempo: 5,
 					logros: [],
 					cierre: {
+						grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -397,6 +402,7 @@ module.exports = {
 					tiempo: 6,
 					logros: [],
 	        		cierre: {
+	        			grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -455,6 +461,7 @@ module.exports = {
 					tiempo: 7,
 					logros: [],
 	        		cierre: {
+	        			grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -525,6 +532,7 @@ module.exports = {
 					tiempo: 8,
 					logros: [],
 					cierre: {
+						grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -591,6 +599,7 @@ module.exports = {
 					tiempo: 9,
 					logros: [],
 	        		cierre: {
+	        			grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
@@ -649,6 +658,7 @@ module.exports = {
 					tiempo: 10,
 					logros: ['g5'],
 					cierre: {
+						grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',

@@ -49,6 +49,7 @@ class Guion extends BaseModel {
 						tiempo: Number, //Tiempo en minutos para activar la salida
 						logros: [String], //codigos de los logros que se desbloquean al finalizar
 						cierre: {
+							grupo: String,
 							tipo_cuerpo: String, 
 							cuerpo: String,
 							ayuda: String,
@@ -57,6 +58,7 @@ class Guion extends BaseModel {
 				],
 				//Usamos una linea en caso de salidas desconcoidasd
 				respuesta_desconocida: {
+					grupo: String,
 					tipo_cuerpo: String, //'texto|imagen|sonido|video|emoji',
 					cuerpo: String,
 					ayuda: String,

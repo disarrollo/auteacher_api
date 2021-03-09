@@ -61,6 +61,7 @@ module.exports = {
 					tiempo: 0,
 					logros: [codigo],
 	        		cierre: {
+	        			grupo: 'great',
 						tipo_cuerpo: 'texto', 
 						cuerpo: 'Great!',
 						ayuda: 'Estupendo!',
