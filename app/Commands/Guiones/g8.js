@@ -25,7 +25,7 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto', 
-					cuerpo: "Now, we talk about 'artist'",
+					cuerpo: "Now, let's talk about the word 'artist'",
 					ayuda: "Ahora, vamos a hablar sobre 'artist'"
 				},
 				{
@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'artist is a person who help students to acquire knowledge',
-					ayuda: 'profesor es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a artist is a person who helps students acquire knowledge',
+					ayuda: 'un profesor es la persona que ayuda a los estudiantes a adquirir conocimiento'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'The artists are in schools, universities and educational institutions',
-					ayuda: 'Los profesores estan en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find artists in schools, universities and educational institutions',
+					ayuda: 'Puedes encontrar profesores en colegios, universidades e instituciones educativas',
 				},
 			],
 
@@ -106,7 +106,7 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Try it again,",
+					cuerpo: "Let's try it again,",
 					ayuda: "Intentémoslo nuevamente,",
 				},
 				{
@@ -125,7 +125,7 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'artist' is the one who guides the students in their learning process",
+					cuerpo: "The 'artist' is the one who guides students in their learning process",
 					ayuda: "'artist' es quien guia a los estudiantes en su proceso de aprendizaje"
 				},
 			],
@@ -134,7 +134,7 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "Are you sure about the concept of artist now?",
+				cuerpo: "Are you clear about the concept of artist now?",
 				ayuda: "Ahora tienes claro el concepto de 'artist'?",
 			},
 			
@@ -186,7 +186,7 @@ module.exports = {
 	      		*/
 	      		{
 	      			tipo_cuerpo: 'texto',
-					cuerpo: "Please, help me to remember,",
+					cuerpo: "Please, help me remember,",
 					ayuda: "Por favor ayúdame a recordar,",
 				},
 				{
@@ -251,7 +251,7 @@ module.exports = {
 	      		*/
 	      		{
 	      			tipo_cuerpo: 'texto',
-					cuerpo: "Let's go to practice,",
+					cuerpo: "Let's practice,",
 					ayuda: "Vamos a practicar,",
 				},
 				{
@@ -265,8 +265,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "is correct?",
-				ayuda: "es correcto?",
+				cuerpo: "is that correct?",
+				ayuda: "es eso correcto?",
 			},
 			
 			posibles_respuestas: [
@@ -327,7 +327,7 @@ module.exports = {
 				*/
 				tipo_pregunta: 'si_no',
 				cuerpo: "How do you said in ingles 'profesor'?",
-				ayuda: "como dices en inglés 'profesor'?",
+				ayuda: "Cómo dices en inglés 'profesor'?",
 			},
 			
 			posibles_respuestas: [
@@ -354,8 +354,8 @@ module.exports = {
 
 			respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "try it again",
-				ayuda: "inténtalo otra vez",
+				cuerpo: "Try it again",
+				ayuda: "Inténtalo otra vez",
 			},
 		
 	    },
@@ -381,7 +381,7 @@ module.exports = {
 				*/
 				tipo_pregunta: 'si_no',
 				cuerpo: "How do you said in spanish 'artist'?",
-				ayuda: "como dices en español 'artist'?",
+				ayuda: "Cómo dices en español 'artist'?",
 			},
 			
 			posibles_respuestas: [
@@ -407,8 +407,8 @@ module.exports = {
 
 			respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "try it again",
-				ayuda: "inténtalo otra vez",
+				cuerpo: "Try it again",
+				ayuda: "Inténtalo otra vez",
 			},
 	    },
 
@@ -439,7 +439,7 @@ module.exports = {
 				*/
 				tipo_pregunta: 'abierta',
 				cuerpo: "true or false?",
-				ayuda: "falso o verdadero?",
+				ayuda: "verdadero o falso?",
 			},
 			
 			posibles_respuestas: [
@@ -489,8 +489,8 @@ module.exports = {
 	      		*/
 	      		{
 	      			tipo_cuerpo: 'texto',
-					cuerpo: "look this:",
-					ayuda: "mira esto:",
+					cuerpo: "Look at this:",
+					ayuda: "Mira esto:",
 				},
 				//Imagen de un bombero
 				{
@@ -560,7 +560,7 @@ module.exports = {
 	      		*/
 	      		{
 	      			tipo_cuerpo: 'texto',
-					cuerpo: "Listen it:",
+					cuerpo: "Listen to this:",
 					ayuda: "Escucha esto:",
 				},
 
@@ -574,8 +574,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "que escuchaste?",
-				ayuda: "what did you hear?",
+				cuerpo: "What did you hear?",
+				ayuda: "¿Que escuchaste?",
 			},
 			
 			posibles_respuestas: [
@@ -601,8 +601,8 @@ module.exports = {
 
 			respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "try it again",
-				ayuda: "inténtalo otra vez",
+				cuerpo: "Try it again",
+				ayuda: "Inténtalo otra vez",
 			},
 	    },
 
@@ -618,7 +618,7 @@ module.exports = {
 	      		*/
 	      		{
 	      			tipo_cuerpo: 'texto',
-					cuerpo: "Look this:",
+					cuerpo: "Look at this:",
 					ayuda: "Mira esto:",
 				},
 
@@ -633,7 +633,7 @@ module.exports = {
 				*/
 				tipo_pregunta: 'si_no',
 				cuerpo: "Who is he?",
-				ayuda: "Quien es el?",
+				ayuda: "Quien es él?",
 			},
 			
 			posibles_respuestas: [
@@ -660,8 +660,8 @@ module.exports = {
 
 			respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "try it again",
-				ayuda: "inténtalo otra vez",
+				cuerpo: "Try it again",
+				ayuda: "Inténtalo otra vez",
 			},
 		
 	    },
