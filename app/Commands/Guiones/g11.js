@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a flight attendant is a person who helps students acquire knowledge',
-					ayuda: 'un auxiliar de vuelo es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a flight attendant is a person who looks after passengers on a plane',
+					ayuda: 'un auxiliar de vuelo es la persona que cuida de los pasajeros de un avion'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find flight attendants in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar auxiliar de vueloes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find flight attendants in planes and airports',
+					ayuda: 'Puedes encontrar auxiliares de vuelo en aviones y aeropuertos',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'flight attendant' is the person who is standing in front of the students in the classroom",
-					ayuda: "'flight attendant' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'flight attendant' is the person who is standing in front of the passengers in the plane",
+					ayuda: "'flight attendant' es la persona que está de pie en frente a los pasajeros del avion"
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'flight attendant' is the one who guides students in their learning process",
-					ayuda: "'flight attendant' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'flight attendant' is the one who looks after the passengers and their necessities",
+					ayuda: "'flight attendant' es quien se ocupa de los pasajeros y de sus necesidades"
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person in the plane hall?",
+					ayuda: "Quien es la persona en el pasillo del avión.?",
 				},
 			],
 			pregunta:{
@@ -435,8 +435,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in a plane",
+					ayuda: "Puedes encontrarlos en un plane",
 				},
 			],
 			pregunta:{

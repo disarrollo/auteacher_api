@@ -26,7 +26,7 @@ module.exports = {
 				{
 					tipo_cuerpo: 'texto', 
 					cuerpo: "Now, let's talk about the word 'actor'",
-					ayuda: "Ahora, vamos a hablar sobre 'actor'"
+					ayuda: "Ahora, vamos a hablar sobre la palabra 'actor'"
 				},
 				{
 					tipo_cuerpo: 'imagen',	
@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a actor is a person who helps students acquire knowledge',
-					ayuda: 'un actor es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a actor is a person who performs in plays, in movies, or on television',
+					ayuda: 'un actor es la persona que interpreta un personaje en obras de teatro, películas, o televisión'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find actors in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar actores en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find actors in theaters, filming locations, and ceremonies.',
+					ayuda: 'Puedes encontrar actores en teatros, locaciones de filmacion y ceremonias.',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'actor' is the person who is standing in front of the students in the classroom",
-					ayuda: "'actor' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'actor' is the person interprets and portrays characters to entertain an audience on television, films and theater. ",
+					ayuda: "'actor' es la persona que interpreta y retrata personajes para entretener una audiencia en televisión, películas y obras de teatro."
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'actor' is the one who guides students in their learning process",
-					ayuda: "'actor' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'actor' is the one who is in front of the camera.",
+					ayuda: "'actor' es quien está frente a la camara"
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person in front of the camera?",
+					ayuda: "Quien es la persona frente a la camara?",
 				},
 			],
 			pregunta:{
@@ -202,8 +202,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'abierta',
-				cuerpo: "actor or student?",
-				ayuda: "actor o estudiante",
+				cuerpo: "actor or teacher?",
+				ayuda: "actor o teacher",
 			},
 			
 			posibles_respuestas: [
@@ -330,7 +330,7 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "How do you said in ingles 'actor'?",
+				cuerpo: "How do you said in english 'actor'?",
 				ayuda: "Cómo dices en inglés 'actor'?",
 			},
 			
@@ -396,7 +396,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['actor','el actor'],
+					grupo_propio: ['actor','el actor', 'un actor'],
 					valor: 100, 
 					salida: codigo+'e7',
 					tiempo: 6,
@@ -435,8 +435,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in a filming location",
+					ayuda: "Puedes encontrarlos en una locación de filmación.",
 				},
 			],
 			pregunta:{

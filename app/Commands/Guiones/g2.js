@@ -26,7 +26,7 @@ module.exports = {
 				{
 					tipo_cuerpo: 'texto', 
 					cuerpo: "Now, let's talk about the word 'teacher'",
-					ayuda: "Ahora, vamos a hablar sobre 'teacher'"
+					ayuda: "Ahora, vamos a hablar sobre la palabra 'teacher'"
 				},
 				{
 					tipo_cuerpo: 'imagen',	
@@ -330,7 +330,7 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "How do you said in ingles 'profesor'?",
+				cuerpo: "How do you said in english 'profesor'?",
 				ayuda: "Cómo dices en inglés 'profesor'?",
 			},
 			

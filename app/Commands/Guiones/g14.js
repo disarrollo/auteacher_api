@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a manager is a person who helps students acquire knowledge',
-					ayuda: 'un administrador es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a manager is a person who is in control of an office, shop,or  team',
+					ayuda: 'un administrador es la persona que esta en control de una oficina, tienda o equipo'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find managers in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar administradores en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find managers in offices, shops, or work environments',
+					ayuda: 'Puedes encontrar administradores en oficinas, tiendas, o ambientes de trabajo ',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'manager' is the person who is standing in front of the students in the classroom",
-					ayuda: "'manager' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'manager' is the person who is standing, managing his work team",
+					ayuda: "'manager' es la persona que está de pie administrando su equipo de trabajo"
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'manager' is the one who guides students in their learning process",
-					ayuda: "'manager' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'manager' is the one who organizes people in their work place.",
+					ayuda: "'manager' es quien organiza la gente en su lugar de trabajo. "
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person giving instructions to the team?",
+					ayuda: "Quien es la persona dando instrucciones a su equipo?",
 				},
 			],
 			pregunta:{

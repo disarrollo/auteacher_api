@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a musician is a person who helps students acquire knowledge',
-					ayuda: 'un musico es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a musician is a person who plays a musical instrument, often as a job',
+					ayuda: 'un musico es la persona que toca un instrumento musical, normalmente como su trabajo.'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find musicians in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar musicoes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find musicians in concerts, conservatories, music schools, labels',
+					ayuda: 'Puedes encontrar musicos en conciertos, conservatorios, academias de música y disqueras',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'musician' is the person who is standing in front of the students in the classroom",
-					ayuda: "'musician' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'musician' is the person who is playing in the stage",
+					ayuda: "'musician' es la persona que está tocando en la tarima"
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'musician' is the one who guides students in their learning process",
-					ayuda: "'musician' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'musician' is the person who plays an instrument professionally",
+					ayuda: "'musician' es la persona que toca un instrumento profesionalmente"
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person on the stage?",
+					ayuda: "Quien es la persona sobre la tarima?",
 				},
 			],
 			pregunta:{
@@ -435,8 +435,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in a concert",
+					ayuda: "Puedes encontrarlos en un concierto",
 				},
 			],
 			pregunta:{

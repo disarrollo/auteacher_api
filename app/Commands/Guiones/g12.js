@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a chef is a person who helps students acquire knowledge',
-					ayuda: 'un chef es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a chef is a person who cooks food in a restaurant',
+					ayuda: 'un chef es la persona que cocina comida en un restaurante'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find chefs in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar chefes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find chefs in restaurants',
+					ayuda: 'Puedes encontrar chefs en restaurantes. ',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'chef' is the person who is standing in front of the students in the classroom",
-					ayuda: "'chef' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'chef' is the person who is cooking something in the kitchen",
+					ayuda: "'chef' es la persona que está cocinando algo en la cocina. "
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'chef' is the one who guides students in their learning process",
-					ayuda: "'chef' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'chef' is the one who prepares delicious meals professionally in restaurants. ",
+					ayuda: "'chef' es quien prepara comidas deliciosas profesionalmente en restaurantes. "
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person in charge of cooking in restaurants?",
+					ayuda: "Quien es la persona a cargo de la cocina en restaurantes?",
 				},
 			],
 			pregunta:{
