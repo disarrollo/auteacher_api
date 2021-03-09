@@ -38,11 +38,11 @@ class BotsIniciar extends Command {
       },
       {
         jid : '579991111111112',
-        nombre : 'Charles'
+        nombre : 'Tommy'
       },
       {
         jid : '579991111111113',
-        nombre : 'Mary'
+        nombre : 'Valery'
       },
       {
         jid : '579991111111114',
@@ -50,7 +50,7 @@ class BotsIniciar extends Command {
       },
       {
         jid : '579991111111115',
-        nombre : 'Vivian'
+        nombre : 'Paula'
       },
       {
         jid : '579991111111116',
@@ -58,15 +58,15 @@ class BotsIniciar extends Command {
       },
       {
         jid : '579991111111117',
-        nombre : 'Lina'
+        nombre : 'Isabella'
       },
       {
         jid : '579991111111118',
-        nombre : 'Lucas'
+        nombre : 'Santiago'
       },
       {
         jid : '579991111111119',
-        nombre : 'Lucia'
+        nombre : 'Antonella'
       },
 
     ]
