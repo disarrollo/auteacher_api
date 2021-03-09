@@ -30,12 +30,12 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto', 
-					cuerpo: "I will be pending of your progress",
+					cuerpo: "I will be tracking your progress",
 					ayuda: 'Voy a estar pendiente de tu avance,'
 				},
 				{
 					tipo_cuerpo: 'texto', 
-					cuerpo: "You can text me if you have some question",
+					cuerpo: "You can text me if you have any question",
 					ayuda: 'Puedes escribirme si tienes alguna inquietud,'
 				},
 				
@@ -45,8 +45,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "If you understand, please write 'ok'",
-				ayuda: "Si haz entendido, por favor escribe 'ok'",
+				cuerpo: "If you understood, please write 'ok'",
+				ayuda: "Si entendiste, por favor escribe 'ok'",
 			},
 
 			posibles_respuestas: [
@@ -115,8 +115,8 @@ module.exports = {
 
     		respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "Hola, voy a revisar tu pregunta",
-				ayuda: "Hi, I will review your question",
+				cuerpo: "Hi, I will review your question",
+				ayuda: "Hola, voy a revisar tu pregunta",
 			},
  
 	    }
