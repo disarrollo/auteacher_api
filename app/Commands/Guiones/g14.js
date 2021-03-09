@@ -1,5 +1,5 @@
 'use strict'
-var codigo = module.id.substring(module.path.length+1,module.id.length-3)
+var codigo = module.id.substring(module.id.lastIndexOf('/')+1,module.id.length-3)
 /*
 	Dialogo para aprender la palabra 'manager'
 	A manager is a person who helps students to acquire knowledge
