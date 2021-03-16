@@ -1,10 +1,13 @@
- 
+ comparar en minusculas
+ corregir ancho de el chat item en mobile
+ corregir el ancho de la conversacion en mobile
+
 
  - 20 imagenes
  - 20 audios
-
- - Iniciar indices de la base de datos
+ - arreglar funcion marcar mensaje leido, almacenar
  - Notificaciones
+ - Iniciar indices de la base de datos
  - Diferir un poco las conversaciones aleatoriamiente para que no inicien todas al mismo tiempo
  
  - verificacion de version - actualizacion obligatoria
@@ -228,6 +231,4 @@ adonis guion:iniciar_uno g12
 adonis guion:iniciar_uno g13
 adonis guion:iniciar_uno g14
 adonis guion:iniciar_uno g15
-
-
 
