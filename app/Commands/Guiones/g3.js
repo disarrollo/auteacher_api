@@ -26,7 +26,7 @@ module.exports = {
 				{
 					tipo_cuerpo: 'texto', 
 					cuerpo: "Now, let's talk about the word 'student'",
-					ayuda: "Ahora, vamos a hablar sobre 'student'"
+					ayuda: "Ahora, vamos a hablar sobre la palabra 'student'"
 				},
 				{
 					tipo_cuerpo: 'imagen',	
@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a student is a person who helps students acquire knowledge',
-					ayuda: 'un estudiante es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a student is a person who aquires knowledge from teachers',
+					ayuda: 'un estudiante es la persona que adquiere conocimiento de los profesores'
 				},
 				{
 					tipo_cuerpo: 'texto',
 					cuerpo: 'You can find students in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar estudiantees en colegios, universidades e instituciones educativas',
+					ayuda: 'Puedes encontrar estudiantes en colegios, universidades e instituciones educativas',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'student' is the person who is standing in front of the students in the classroom",
-					ayuda: "'student' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'student' is the person who is sitting, paying attention to what the teacher says",
+					ayuda: "'student' es la persona que está sentada, poniendo atencion a lo que diga el profesor"
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'student' is the one who guides students in their learning process",
-					ayuda: "'student' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'student' is the one who learns something following his teacher's instructions",
+					ayuda: "'student' es quien aprende algo siguiendo las instrucciones de su profesor"
 				},
 			],
 			pregunta:{
@@ -136,7 +136,7 @@ module.exports = {
 				*/
 				tipo_pregunta: 'si_no',
 				cuerpo: "Are you clear about the concept of student now?",
-				ayuda: "Ahora tienes claro el concepto de 'student'?",
+				ayuda: "Ya tienes claro el concepto de 'student'?",
 			},
 			
 			posibles_respuestas: [
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person sitting in a classroom?",
+					ayuda: "Quien es la persona sentada en el salón de clases?",
 				},
 			],
 			pregunta:{
@@ -202,8 +202,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'abierta',
-				cuerpo: "student or student?",
-				ayuda: "estudiante o estudiante",
+				cuerpo: "student or teacher?",
+				ayuda: "estudiante o profesor",
 			},
 			
 			posibles_respuestas: [
@@ -236,8 +236,8 @@ module.exports = {
 
 			respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "Please answer 'student' or 'student'",
-				ayuda: "Por favor contesta 'student' o 'student'",	
+				cuerpo: "Please answer 'student' or 'teacher'",
+				ayuda: "Por favor contesta 'student' o 'teacher'",	
 			},
 		
 	    },
@@ -330,7 +330,7 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "How do you said in ingles 'estudiante'?",
+				cuerpo: "How do you said in english 'estudiante'?",
 				ayuda: "Cómo dices en inglés 'estudiante'?",
 			},
 			
@@ -396,7 +396,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['estudiante','el estudiante'],
+					grupo_propio: ['estudiante','el estudiante', 'un estudiante'],
 					valor: 100, 
 					salida: codigo+'e7',
 					tiempo: 6,

@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a singer is a person who helps students acquire knowledge',
-					ayuda: 'un cantante es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a singer is a person who sings, often as their job',
+					ayuda: 'un cantante es una persona que canta, a menudo como su trabajo'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find singers in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar cantantees en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find singers in concerts, operas, or academies.',
+					ayuda: 'Puedes encontrar cantantees en conciertos, operas, o academias.',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'singer' is the person who is standing in front of the students in the classroom",
-					ayuda: "'singer' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'singer' is the person who is standing on the stage with the microphone.",
+					ayuda: "'singer' es la persona que está de pie en la tarima con el micrófono."
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'singer' is the one who guides students in their learning process",
-					ayuda: "'singer' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'singer' is the one who sings to entertain their audience.",
+					ayuda: "'singer' es quien canta para entretener a su audiencia. "
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person on the stage?",
+					ayuda: "Quien es la persona sobre la tarima?",
 				},
 			],
 			pregunta:{

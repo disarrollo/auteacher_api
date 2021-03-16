@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a athlete is a person who helps students acquire knowledge',
-					ayuda: 'un atleta es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'an athlete is a person who is good at sports such as running, jumping, or throwing things',
+					ayuda: 'un atleta es la persona que es buena en deportes como correr, saltar, o lanzar cosas'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find athletes in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar atletaes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find athletes in tracks, gyms, competitions, and olympic games',
+					ayuda: 'Puedes encontrar atletas en pistas, gimnasios, competiciones y juegos olímpicos',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'athlete' is the person who is standing in front of the students in the classroom",
-					ayuda: "'athlete' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'athlete' is the person who is running across the track",
+					ayuda: "'athlete' es la persona que está corriendo a través de la pista"
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'athlete' is the one who guides students in their learning process",
-					ayuda: "'athlete' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'athlete' is the one who competes against others for a medal or a prize",
+					ayuda: "'athlete' es quien compite contra otros por una medalla o un premio. "
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person in the running track?",
+					ayuda: "Quien es la persona en la pista de atletismo?",
 				},
 			],
 			pregunta:{
@@ -202,8 +202,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'abierta',
-				cuerpo: "athlete or student?",
-				ayuda: "atleta o estudiante",
+				cuerpo: "athlete or architect?",
+				ayuda: "atleta o arquitecto?",
 			},
 			
 			posibles_respuestas: [
@@ -227,7 +227,7 @@ module.exports = {
 				},
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['student'],
+					grupo_propio: ['architect'],
 					valor: 0, 
 					salida: codigo+'e3',
 					tiempo: 3
@@ -435,8 +435,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in the olympic games",
+					ayuda: "Puedes encontrarlos en los juegos olímpicos",
 				},
 			],
 			pregunta:{
@@ -506,7 +506,7 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "He is not a athlete",
+					cuerpo: "He is not an athlete",
 					ayuda: "El no es un atleta",
 				},
 			],
@@ -652,7 +652,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['athlete', 'a athlete', 'the athlete','is a athlete', 'he is a athlete', "he's a athlete"],
+					grupo_propio: ['athlete', 'an athlete', 'the athlete','is an athlete', 'he is an athlete', "he's an athlete"],
 					valor: 100, 
 					
 					tiempo: 10,

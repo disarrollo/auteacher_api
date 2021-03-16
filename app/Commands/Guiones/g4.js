@@ -26,7 +26,7 @@ module.exports = {
 				{
 					tipo_cuerpo: 'texto', 
 					cuerpo: "Now, let's talk about the word 'architect'",
-					ayuda: "Ahora, vamos a hablar sobre 'architect'"
+					ayuda: "Ahora, vamos a hablar sobre la palabra 'architect'"
 				},
 				{
 					tipo_cuerpo: 'imagen',	
@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a architect is a person who helps students acquire knowledge',
-					ayuda: 'un arquitecto es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a architect is a person who designs buildings',
+					ayuda: 'un arquitecto es la persona que diseña construcciones'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find architects in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar arquitectoes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find architects in constructions, and offices',
+					ayuda: 'Puedes encontrar arquitectoes en constucciones y oficinas	',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'architect' is the person who is standing in front of the students in the classroom",
-					ayuda: "'architect' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'architect' is the person who creates designs for new houses and buildings. ",
+					ayuda: "'architect' es la persona que crea los diseños para casas y edificios nuevos. "
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'architect' is the one who guides students in their learning process",
-					ayuda: "'architect' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'architect' is the one who draws the blueprints before constructions start. ",
+					ayuda: "'architect' es quien dibuja los planos antes que empiezen las construcciones"
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person who designs new buildings?",
+					ayuda: "Quien es la persona que diseña edificios nuevos?",
 				},
 			],
 			pregunta:{
@@ -330,7 +330,7 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "How do you said in ingles 'arquitecto'?",
+				cuerpo: "How do you said in english 'arquitecto'?",
 				ayuda: "Cómo dices en inglés 'arquitecto'?",
 			},
 			
@@ -341,7 +341,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['architect', 'the architect', 'a architect'],
+					grupo_propio: ['architect', 'the architect', 'an architect'],
 					valor: 100, 
 					salida: codigo+'e6',
 					tiempo: 5,
@@ -396,7 +396,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['arquitecto','el arquitecto'],
+					grupo_propio: ['arquitecto','el arquitecto', 'un arquitecto'],
 					valor: 100, 
 					salida: codigo+'e7',
 					tiempo: 6,
@@ -431,12 +431,12 @@ module.exports = {
 	      		{
 	      			tipo_cuerpo: 'texto',
 					cuerpo: "If you are looking for architects,",
-					ayuda: "Si buscas arquitectoes,",
+					ayuda: "Si buscas arquitectos,",
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in a construction site",
+					ayuda: "Puedes encontrarlos en una construccion",
 				},
 			],
 			pregunta:{
@@ -507,7 +507,7 @@ module.exports = {
 				{
 					tipo_cuerpo: 'texto',
 					cuerpo: "He is not a architect",
-					ayuda: "El no es un arquitecto",
+					ayuda: "Él no es un arquitecto",
 				},
 			],
 			pregunta:{
@@ -652,7 +652,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['architect', 'a architect', 'the architect','is a architect', 'he is a architect', "he's a architect"],
+					grupo_propio: ['architect', 'an architect', 'the architect','is a architect', 'he is a architect', "he's an architect"],
 					valor: 100, 
 					
 					tiempo: 10,

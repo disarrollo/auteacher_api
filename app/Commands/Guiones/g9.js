@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a banker is a person who helps students acquire knowledge',
-					ayuda: 'un banquero es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a banker is a person who has an important job in a bank',
+					ayuda: 'un banquero es la persona que tiene un trabajo importante en un banco'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find bankers in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar banqueroes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find bankers in banks or other financial institutions. ',
+					ayuda: 'Puedes encontrar banqueros en bancos u otras instituciones financieras,'
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'banker' is the person who is standing in front of the students in the classroom",
-					ayuda: "'banker' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'banker' is the person who is behind the telephone in a suit",
+					ayuda: "'banker' es la persona que está en el telefono con un traje. "
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'banker' is the one who guides students in their learning process",
-					ayuda: "'banker' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'banker' is the one who manages the money and the financial needs of clients in a bank",
+					ayuda: "'banker' es quien maneja el dinero y las necesidades financieras de los cientes de un banco."
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person who works in a bank?",
+					ayuda: "Quien es la persona que trabaja en un banco?",
 				},
 			],
 			pregunta:{
@@ -202,8 +202,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'abierta',
-				cuerpo: "banker or student?",
-				ayuda: "banquero o estudiante",
+				cuerpo: "banker or athlete?",
+				ayuda: "banquero o atleta",
 			},
 			
 			posibles_respuestas: [
@@ -227,7 +227,7 @@ module.exports = {
 				},
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['student'],
+					grupo_propio: ['athlete'],
 					valor: 0, 
 					salida: codigo+'e3',
 					tiempo: 3
@@ -236,8 +236,8 @@ module.exports = {
 
 			respuesta_desconocida: {
 				tipo_cuerpo: 'texto',
-				cuerpo: "Please answer 'banker' or 'student'",
-				ayuda: "Por favor contesta 'banker' o 'student'",	
+				cuerpo: "Please answer 'banker' or 'athlete'",
+				ayuda: "Por favor contesta 'banker' o 'atleta'",	
 			},
 		
 	    },
@@ -431,12 +431,12 @@ module.exports = {
 	      		{
 	      			tipo_cuerpo: 'texto',
 					cuerpo: "If you are looking for bankers,",
-					ayuda: "Si buscas banqueroes,",
+					ayuda: "Si buscas banqueros,",
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in a bank",
+					ayuda: "Puedes encontrarlos en un baco",
 				},
 			],
 			pregunta:{

@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a artist is a person who helps students acquire knowledge',
-					ayuda: 'un profesor es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'an artist is a person who makes artworks, especially paintings and drawings',
+					ayuda: 'un artista es una persona que hace obras de arte, especialmente pinturas y dibujos'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find artists in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar profesores en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find artists in galleries, museums, art meet-ups and fairs.',
+					ayuda: 'Puedes encontrar artistas en galerías, museos y reuniones y ferias de artes',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'artist' is the person who is standing in front of the students in the classroom",
-					ayuda: "'artist' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'artist' is the person who is talented in aesthetic areas, and can paint, draw and model professionally.	",
+					ayuda: "'artist' es la persona que es talentosa en areas estéticas, y puede pintar, dibujar y modelar profesionalmente. "
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'artist' is the one who guides students in their learning process",
-					ayuda: "'artist' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'artist' is the one who publishes their works of art",
+					ayuda: "'artist' es quien publica sus obras de arte"
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person who creates artworks?",
+					ayuda: "Quien es la persona que crea obras de arte?",
 				},
 			],
 			pregunta:{
@@ -203,7 +203,7 @@ module.exports = {
 				*/
 				tipo_pregunta: 'abierta',
 				cuerpo: "artist or student?",
-				ayuda: "profesor o estudiante",
+				ayuda: "artista o estudiante",
 			},
 			
 			posibles_respuestas: [
@@ -259,8 +259,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "the traduction of 'artist' is 'profesor' ",
-					ayuda: "la traducción de 'artist' es 'profesor'",
+					cuerpo: "the traduction of 'artist' is 'artista' ",
+					ayuda: "la traducción de 'artist' es 'artista'",
 				},
 			],
 			pregunta:{
@@ -330,8 +330,8 @@ module.exports = {
 				tipo_pregunta: 'abierta' | 'cerrada' | 'si_no'
 				*/
 				tipo_pregunta: 'si_no',
-				cuerpo: "How do you said in ingles 'profesor'?",
-				ayuda: "Cómo dices en inglés 'profesor'?",
+				cuerpo: "How do you said in english 'artista'?",
+				ayuda: "Cómo dices en inglés 'artista'?",
 			},
 			
 			posibles_respuestas: [
@@ -396,7 +396,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['profesor','el profesor'],
+					grupo_propio: ['artista','el artista'],
 					valor: 100, 
 					salida: codigo+'e7',
 					tiempo: 6,
@@ -431,12 +431,12 @@ module.exports = {
 	      		{
 	      			tipo_cuerpo: 'texto',
 					cuerpo: "If you are looking for artists,",
-					ayuda: "Si buscas profesores,",
+					ayuda: "Si buscas artistas,",
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "You can find them in a school",
-					ayuda: "Puedes encontrarlos en un colegio",
+					cuerpo: "You can find them in a gallery",
+					ayuda: "Puedes encontrarlos en una galería",
 				},
 			],
 			pregunta:{
@@ -506,8 +506,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "He is not a artist",
-					ayuda: "El no es un profesor",
+					cuerpo: "He is not an artist",
+					ayuda: "El no es un artista",
 				},
 			],
 			pregunta:{
@@ -652,7 +652,7 @@ module.exports = {
 				*/
 				{
 					grupo: 'grupo_propio',
-					grupo_propio: ['artist', 'a artist', 'the artist','is a artist', 'he is a artist', "he's a artist"],
+					grupo_propio: ['artist', 'an artist', 'the artist','is an artist', 'he is an artist', "he's an artist"],
 					valor: 100, 
 					
 					tiempo: 10,

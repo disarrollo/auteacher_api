@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a writer is a person who helps students acquire knowledge',
-					ayuda: 'un escritor es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a writer is a person who works writing books or articles.',
+					ayuda: 'un escritor es la persona que trabaja escribiendo libros o artículos'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find writers in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar escritores en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find writers in publishers or academic environments',
+					ayuda: 'Puedes encontrar escritores en editoriales o ambientes académicos',
 				},
 			],
 
@@ -121,13 +121,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'writer' is the person who is standing in front of the students in the classroom",
-					ayuda: "'writer' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'writer' is the person who is behind the desk writing",
+					ayuda: "'writer' es la persona que está de detrás de la mesa escribiendo"
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "The 'writer' is the one who guides students in their learning process",
-					ayuda: "'writer' es quien guia a los estudiantes en su proceso de aprendizaje"
+					cuerpo: "The 'writer' is the one who produces literary texts for an audience",
+					ayuda: "'writer' es quien produce textos literarios para una audiencia"
 				},
 			],
 			pregunta:{
@@ -193,8 +193,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: "Who is the person in front of classroom?",
-					ayuda: "Quien es la persona al frente del salón de clases?",
+					cuerpo: "Who is the person who produces literary texts?",
+					ayuda: "Quien es la persona que produce textos literarios?",
 				},
 			],
 			pregunta:{

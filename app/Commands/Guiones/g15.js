@@ -39,13 +39,13 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'a scientist is a person who helps students acquire knowledge',
-					ayuda: 'un científico es la persona que ayuda a los estudiantes a adquirir conocimiento'
+					cuerpo: 'a scientist is a person who contributes scientific research to humanity',
+					ayuda: 'un científico es la persona que contribuye investigación científica a la humanidad.'
 				},
 				{
 					tipo_cuerpo: 'texto',
-					cuerpo: 'You can find scientists in schools, universities and educational institutions',
-					ayuda: 'Puedes encontrar científicoes en colegios, universidades e instituciones educativas',
+					cuerpo: 'You can find scientists in laboratories, universities and educational institutions',
+					ayuda: 'Puedes encontrar científicoes en laboratorios, universidades e instituciones educativas',
 				},
 			],
 
@@ -121,8 +121,8 @@ module.exports = {
 				},
 				{
 					tipo_cuerpo: 'texto',	
-					cuerpo: "The 'scientist' is the person who is standing in front of the students in the classroom",
-					ayuda: "'scientist' es la persona que está de pie en frente de los estudiantes en el salón de clase"
+					cuerpo: "The 'scientist' is the person who is standing with the measuring instument in his hand",
+					ayuda: "'scientist' es la persona que está de pie con el instrumento de medición en sus manos"
 				},
 				{
 					tipo_cuerpo: 'texto',
